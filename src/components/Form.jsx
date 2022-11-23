@@ -52,10 +52,10 @@ function Form({ inputText, setInputText, todos, setTodos, setStatus }) {
             </div>
             <div className="alert-wrapper">
                 {alertWarning ? <div className="alert-warning">
-                    <div>Input alanı boş geçilemez!</div>
+                    <div>Please enter to do data!</div>
                 </div> : ""}
                 {alertSuccess ? <div className="alert-success">
-                    <div>Ekleme Başarılı.</div>
+                    <div>Added Succesfully</div>
                 </div> : ""}
             </div>
         </form>

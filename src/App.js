@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>MY TODO LIST</h1>
+        <h1>T O D O   L I S T</h1>
       </header>
       <Form
         inputText={inputText}

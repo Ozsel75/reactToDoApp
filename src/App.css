@@ -10,9 +10,15 @@ body{
 }
 
 header h1{
-  color: #fff;
+  font-family: "Island Moments", cursive;
+  color: #e6e9eb;
+  background-image: -webkit-linear-gradient(90deg, #e6e9eb 28%, #06d1f6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   margin: 5rem 0;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 header,
